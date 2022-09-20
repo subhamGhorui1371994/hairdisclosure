@@ -22,7 +22,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/1.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/1.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -38,7 +39,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix male classic col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/2.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/2.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -54,7 +56,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/3.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/3.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -70,7 +73,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/4.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/4.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -86,7 +90,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/5.png" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/5.png"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -102,7 +107,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix male classic col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/6.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/6.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -116,10 +122,10 @@
                     </div>
 
                     <!-- Project item -->
-                    <div
-                        class="project-item all mix male expensive classic col-xl-3 laptop col-lg-4 col-md-6 col-sm-12">
+                    <div class="project-item all mix male expensive classic col-xl-3 laptop col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/7.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/7.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -135,7 +141,9 @@
                     <!-- Project item -->
                     <div class="project-item all mix male classic col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/gim5.jpg" alt=""></figure>                            <div class="overlay-box">
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/gim5.jpg"
+                                    alt=""></figure>
+                            <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
                                     <div class="category">Catagory : Classic</div>
@@ -150,7 +158,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix male expencive Classic col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/gimg9.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/gimg9.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Male Type</a></h3>
@@ -166,7 +175,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix tablet female classic col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/gimg10.png" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/gimg10.png"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Female Type</a></h3>
@@ -182,7 +192,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix female expencive col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/gimg11.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/gimg11.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Female Type</a></h3>
@@ -198,7 +209,8 @@
                     <!-- Project item -->
                     <div class="project-item all mix female expencive classic col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="width: 300px;height: 200px;" src="assets/images/gallery/gimg12.jpg" alt=""></figure>
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/gimg12.jpg"
+                                    alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
                                     <h3><a href="project-detail">Female Type</a></h3>
