@@ -63,7 +63,7 @@
 
         @section('bread-crumb')
             <!--Page Title-->
-            <section class="page-title" style="background-image:url(assets/images/my-images/background/hair1.jpg);">
+            <section class="page-title" style="background-image:url('assets/images/my-images/background/hair1.jpg');">
                 <div class="auto-container">
                     <div class="inner-container clearfix">
                         <h1>@yield('title')</h1>

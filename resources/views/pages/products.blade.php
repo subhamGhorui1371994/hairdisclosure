@@ -9,8 +9,8 @@
             <div class="row clearfix">
 
                 <!--content side-->
-                <div class="content-side col-xl-9 col-lg-8 col-md-12 col-sm-12">
-                    <div class="shop-upper-box clearfix">
+                <div class="content-side col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    {{-- <div class="shop-upper-box clearfix">
                         <div class="items-label pull-left">Showing 1-7 of 84 results</div>
                         <div class="sort-by pull-right">
                             <select class="custom-select-box">
@@ -21,7 +21,7 @@
                                 <option>Descending</option>
                             </select>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="row clearfix">
                         {{--  --}}
@@ -44,7 +44,7 @@
                                                 {{-- <a href="{{ url('product-detail') }}">Flying Ninja</a> --}}
                                                 <a href={{ url('products-detail/' . $product['id']) }}>{{ $product['title'] }}</a>
                                             </h3>
-                                            <span class="price">$12.00</span>
+                                            {{-- <span class="price">$12.00</span> --}}
                                             <p>
                                                 {!! html_entity_decode($product['small_description']) !!}
                                             </p>
@@ -56,18 +56,18 @@
                     </div>
 
                     <!-- Styled Pagination -->
-                    <div class="styled-pagination text-center">
+                    {{-- <div class="styled-pagination text-center">
                         <ul class="clearfix">
                             <li class="active"><a href="{{ url('#') }}">1</a></li>
                             <li><a href="{{ url('#') }}">2</a></li>
                             <li><a href="{{ url('#') }}">3</a></li>
                             <li class="next"><a href="{{ url('#') }}">Next</a></li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <!--Sidebar Side-->
-                <div class="sidebar-side col-xl-3 col-lg-4 col-md-12 col-sm-12">
+                {{-- <div class="sidebar-side col-xl-3 col-lg-4 col-md-12 col-sm-12">
                     <aside class="sidebar shop-sidebar">
 
                         <!--search box-->
@@ -90,8 +90,8 @@
                                 <li><a href="{{ url('#') }}">Anti-Slip Wigs <span>12</span></a></li>
                                 <li><a href="{{ url('#') }}">Full Lace Wigs <span>15</span></a></li>
                                 <li><a href="{{ url('#') }}">Lace Front Wigs <span>10</span></a></li>
-                                {{-- <li><a href="{{ url('#') }}">Game Console Repair <span>08</span></a></li>
-                                <li><a href="{{ url('#') }}">Phone Repair <span>05</span></a></li> --}}
+                                <!-- <li><a href="{{ url('#') }}">Game Console Repair <span>08</span></a></li>
+                                <li><a href="{{ url('#') }}">Phone Repair <span>05</span></a></li> -->
                             </ul>
                         </div>
 
@@ -162,7 +162,7 @@
                             </div>
                         </div>
                     </aside>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

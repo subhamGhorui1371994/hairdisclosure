@@ -8,7 +8,7 @@
         <div class="auto-container">
             <div class="row">
                 <!--content side-->
-                <div class="content-side col-xl-9 col-lg-8 col-md-12 col-sm-12">
+                <div class="content-side col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="product-details">
                         <!--Basic Details-->
                         <div class="basic-details">
@@ -22,8 +22,10 @@
                                 <div class="info-column col-lg-7 col-md-12 col-sm-12">
                                     <div class="inner-column">
                                         <div class="details-header">
-                                            <h4>Patient Ninja</h4>
-                                            <div class="item-price"><del>$55.00</del> $35.00</div>
+                                            <h4>
+                                                {!!html_entity_decode($productDetails->title)!!}
+                                            </h4>
+                                            {{-- <div class="item-price"><del>$55.00</del> $35.00</div> --}}
                                             <div class="rating">
                                                 <span class="la la-star"></span><span class="la la-star"></span><span
                                                     class="la la-star"></span><span class="la la-star"></span><span
@@ -32,12 +34,12 @@
                                             <span class="review">( 3 Customer Reviews )</span>
                                         </div>
                                         <div class="text">{!!html_entity_decode($productDetails->description)!!}</div>
-                                        <div class="clearfix">
+                                        {{-- <div class="clearfix">
                                             <div class="item-quantity"><input class="quantity-spinner" type="text"
                                                     value="2" name="quantity"></div>
                                             <button type="button" class="theme-btn btn-style-one">Add to
                                                 Cart</button>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +47,7 @@
                         <!--Basic Details-->
 
                         <!--Product Info Tabs-->
-                        <div class="product-info-tabs">
+                        {{-- <div class="product-info-tabs">
 
                             <!--Product Tabs-->
                             <div class="prod-tabs tabs-box" id="product-tabs">
@@ -173,12 +175,13 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- End product info tabs -->
+                        </div> --}}
+                        <!-- End product info tabs -->
                     </div>
                 </div>
 
                 <!--Sidebar Side-->
-                <div class="sidebar-side col-xl-3 col-lg-4 col-md-12 col-sm-12">
+                {{-- <div class="sidebar-side col-xl-3 col-lg-4 col-md-12 col-sm-12">
                     <aside class="sidebar shop-sidebar">
 
                         <!--search box-->
@@ -273,7 +276,7 @@
                             </div>
                         </div>
                     </aside>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
