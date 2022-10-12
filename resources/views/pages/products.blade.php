@@ -30,14 +30,14 @@
                                 <div class="shop-item col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                                     <div class="inner-box">
                                         <div class="image">
-                                            <img src="{{ URL::asset(checkAndRenderImage($product['display_image'], 'assets/images/resource/service-2.jpg')) }}" alt="" style="height: 260px;width: 250px">
-                                            <div class="overlay-box">
+                                            <img src="{{ URL::asset(checkAndRenderImage($product['display_image'], 'assets/images/resource/service-2.jpg')) }}" alt="" style="height: 260px;width: 370px">
+                                            {{-- <div class="overlay-box">
                                                 <div class="icon-box">
                                                     <a href="{{ url('shopping-cart') }}"><i class="la la-heart-o"></i></a>
                                                     <a href="{{ url('shopping-cart') }}"><i
                                                             class="la la-shopping-cart"></i></a>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="lower-content">
                                             <h3>
