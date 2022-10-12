@@ -43,9 +43,9 @@
                             </div>
 
                             <!--Info Box-->
-                            <div class="upper-column info-box btn-box">
+                            {{-- <div class="upper-column info-box btn-box">
                                 <a href="{{ url('contact-us') }}" class="theme-btn btn-style-four">Get Free Quote</a>
-                            </div>
+                            </div> --}}
 
                         </div>
                     </div>
@@ -129,13 +129,13 @@
 
                             <!-- Outer Box -->
                             <div class="outer-box">
-                                <ul class="social-icon-three clearfix">
+                                {{-- <ul class="social-icon-three clearfix">
                                     <li><a href="{{ url('#') }}"><i class="la la-facebook-official"></i></a></li>
                                     <li><a href="{{ url('#') }}"><i class="la la-twitter"></i></a></li>
                                     <li><a href="{{ url('#') }}"><i class="la la-google-plus"></i></a></li>
                                     <li><a href="{{ url('#') }}"><i class="la la-dribbble"></i></a></li>
                                     <li><a href="{{ url('#') }}"><i class="la la-pinterest"></i></a></li>
-                                </ul>
+                                </ul> --}}
 
                                 <!--Search Box-->
                                 <div class="search-box-outer">

@@ -21,14 +21,14 @@
                                     <div class="text">
                                        {{--  --}}
                                     </div>
-                                    <ul class="social-icon-two">
+                                    {{-- <ul class="social-icon-two">
                                         <li>Follow Us:</li>
                                         <li><a href="{{url('#')}}"><i class="la la-facebook"></i></a></li>
                                         <li><a href="{{url('#')}}"><i class="la la-twitter"></i></a></li>
                                         <li><a href="{{url('#')}}"><i class="la la-linkedin"></i></a></li>
                                         <li><a href="{{url('#')}}"><i class="la la-google-plus"></i></a></li>
                                         <li><a href="{{url('#')}}"><i class="la la-pinterest-p"></i></a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                             <div class="footer-widget recent-posts">
                                 <h2 class="widget-title">Recent Posts</h2>
                                 <!--Footer Column-->
-                                <div class="widget-content">
+                                {{-- <div class="widget-content">
                                     <div class="post">
                                         <div class="thumb"><a href="{{url('blog-detail')}}"><img
                                                     src="assets/images/resource/post-thumb-1.jpg" alt=""></a>
@@ -82,6 +82,9 @@
                                         </h4>
                                         <a href="{{url('blog-detail')}}" class="read-more">Read More</a>
                                     </div>
+                                </div> --}}
+                                <div style="color: dodgerblue;">
+                                    Comming Soon
                                 </div>
                             </div>
                         </div>
@@ -100,7 +103,7 @@
                                             {{ env('OFFICE_PHONE', '8777036806') }}</li>
                                     </ul>
 
-                                    <div class="subscribe-form">
+                                    {{-- <div class="subscribe-form">
                                         <form method="post" action="blog">
                                             <div class="form-group">
                                                 <input type="email" name="email" value=""
@@ -109,7 +112,7 @@
                                                         class="icon la la-paper-plane"></span></button>
                                             </div>
                                         </form>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>

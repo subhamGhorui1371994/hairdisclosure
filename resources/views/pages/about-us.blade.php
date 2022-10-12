@@ -24,8 +24,9 @@
 
                         <div class="link-box">
                             <a href="{{ url('about-us') }}" class="theme-btn btn-style-two">Contact Us</a>
-                            <a href="{{ url('#') }}" class="theme-btn call-btn"><i class="icon la la-phone"></i> + 62
-                                867 6872</a>
+                            <a href="{{ url('#') }}" class="theme-btn call-btn"><i class="icon la la-phone"></i>
+                                {{ env('OFFICE_PHONE', '8777036806') }}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +139,7 @@
     <!--End Process Section -->
 
     <!-- Team Section -->
-    <section class="team-section">
+    {{-- <section class="team-section">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <h2> Our Professional Stylists</h2>
@@ -215,6 +216,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--End Team Section -->
 @endsection
