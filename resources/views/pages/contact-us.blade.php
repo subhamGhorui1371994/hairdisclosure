@@ -59,23 +59,25 @@
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                 <input type="text" name="name" placeholder="Name"
-                                    data-msg-required="Name field is required"  value="{{old('name')}}">
+                                    data-msg-required="Name field is required" value="{{ old('name') }}">
                                 <span class="validation-errors"></span>
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                 <input type="text" name="phone" id="phone" placeholder="Phone"
-                                    data-msg-required="Mobile Or Telephone field is required field is required"  value="{{old('phone')}}">
+                                    data-msg-required="Mobile Or Telephone field is required field is required"
+                                    value="{{ old('phone') }}">
                                 <span class="validation-errors"></span>
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                <input type="email" name="email" id="email" placeholder="Email"  value="{{old('email')}}">
+                                <input type="email" name="email" id="email" placeholder="Email"
+                                    value="{{ old('email') }}">
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                 <input type="text" name="subject" id="subject" placeholder="Subject"
-                                    data-msg-required="Subject field is required"  value="{{old('subject')}}">
+                                    data-msg-required="Subject field is required" value="{{ old('subject') }}">
                                 <span class="validation-errors"></span>
                             </div>
 
@@ -90,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                {{-- </form> --}}
+                    {{-- </form> --}}
                     {{ Form::close() }}
                 </div>
             </div>

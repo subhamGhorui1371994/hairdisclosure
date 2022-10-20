@@ -56,9 +56,9 @@
                             data-y="['middle','middle','middle','middle']"
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
                             <div class="btn-box">
-                                <a href="{{ url('products') }}" class="theme-btn btn-style-one"><span>Shop
-                                        Now</span></a>
-                                <a href="content" class="theme-btn btn-style-two"><span>Contact us</span></a>
+                                {{-- <a href="{{ url('products') }}" class="theme-btn btn-style-one"><span>Shop
+                                        Now</span></a> --}}
+                                <a href="contact-us" class="theme-btn btn-style-two"><span>Contact us</span></a>
                             </div>
                         </div>
                     </li>
@@ -106,9 +106,9 @@
                             data-y="['middle','middle','middle','middle']"
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
                             <div class="btn-box">
-                                <a href="{{ url('products') }}" class="theme-btn btn-style-one"><span>Shop
-                                        Now</span></a>
-                                <a href="content" class="theme-btn btn-style-two"><span>Contact us</span></a>
+                                {{-- <a href="{{ url('products') }}" class="theme-btn btn-style-one"><span>Shop
+                                        Now</span></a> --}}
+                                <a href="contact-us" class="theme-btn btn-style-two"><span>Contact us</span></a>
                             </div>
                         </div>
                     </li>
@@ -140,7 +140,7 @@
                                 <div class="image-box">
                                     <figure class="image"><img
                                             src="{{ URL::asset(checkAndRenderImage($product['display_image'], 'assets/images/resource/service-2.jpg')) }}"
-                                            alt="" style="height: 300px;width: 280px">
+                                            alt="" style="height: 300px;width: 370px">
                                     </figure>
                                     <div class="overlay-box"><a href="{{ url('products-detail/' . $product['id']) }}"
                                             class="read-more">Read More...</a></div>

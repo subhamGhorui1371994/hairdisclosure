@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\URL;
 
 /**
  * @return void
@@ -16,7 +17,6 @@ function showMessage()
 				<button type='button' class='close' data-dismiss='alert'><span>×</span><span class='sr-only'>Close</span></button>
 				<span class='text-semibold'>$error</span>
         </div>";
-
     } elseif (Session::has('success')) {
 
         $success = Session::get('success');
@@ -26,7 +26,6 @@ function showMessage()
 				<button type='button' class='close' data-dismiss='alert'><span>×</span><span class='sr-only'>Close</span></button>
 			    <span class='text-semibold'>$success</span>
         </div>";
-
     } else {
         echo '';
     }
@@ -75,8 +74,9 @@ function get_breadcrumb_row_html($pageTitle = '', $pageName = '')
  * @param $alt
  * @return mixed|string
  */
-function checkAndRenderImage($filePath = '', $alt = '') {
-    if(!empty($filePath) && file_exists(public_path($filePath))) {
+function checkAndRenderImage($filePath = '', $alt = '')
+{
+    if (!empty($filePath) && file_exists(public_path($filePath))) {
         return $filePath;
     } else {
         return $alt;
@@ -88,6 +88,7 @@ function checkAndRenderImage($filePath = '', $alt = '') {
  * @param $l
  * @return false|string
  */
-function unique_id($l = 8) {
+function unique_id($l = 8)
+{
     return substr(md5(uniqid(mt_rand(), true)), 0, $l);
 }
