@@ -138,7 +138,7 @@
                                 </ul> --}}
 
                                 <!--Search Box-->
-                                <div class="search-box-outer">
+                                {{-- <div class="search-box-outer">
                                     <div class="dropdown">
                                         <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
@@ -159,7 +159,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
