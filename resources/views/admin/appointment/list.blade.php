@@ -42,9 +42,9 @@
                     headers: {'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')},
                 },
                 aoColumnDefs: [
-                    {bSortable: false, aTargets: [0, 7]},
+                    {bSortable: false, aTargets: [8]},
                 ],
-                order: [[2, 'asc']],
+                order: [[0, 'desc']],
                 columns: [
                     // {
                     //     data: null,
