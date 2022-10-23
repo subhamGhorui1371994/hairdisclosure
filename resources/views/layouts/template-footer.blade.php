@@ -99,8 +99,14 @@
                                             {{ env('OFFICE_ADDRESS', '69, Kankurgachhi 2nd Lane, Kolkata-700054, Near Great Eastren.') }}</li>
                                         {{-- <li><span class="la la-envelope"></span><a
                                                 href="{{url('#')}}">business@support.com</a></li> --}}
-                                        <li><span class="la la-phone"></span>
-                                            {{ env('OFFICE_PHONE', '8777036806') }}</li>
+                                        <li>
+                                            <span class="la la-phone"></span>
+                                            {{ env('OFFICE_PHONE', '8777036806') }}
+                                        </li>
+                                        <li>
+                                            <span class="la la-phone"></span>
+                                            {{ env('OFFICE_PHONE_TWO', '8334852127') }}
+                                        </li>
                                     </ul>
 
                                     {{-- <div class="subscribe-form">
