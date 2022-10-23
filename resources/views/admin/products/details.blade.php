@@ -6,9 +6,9 @@
 
     <div class="panel">
         <div class="panel-heading">
-            <h3 class="panel-title text-bold">Service Details</h3>
+            <h3 class="panel-title text-bold">Products Details</h3>
             <div class="heading-elements">
-                <a href="{{ url('admin/service') }}" class="btn btn-primary">Back To Services</a>
+                <a href="{{ url('admin/products') }}" class="btn btn-primary">Back To Products</a>
             </div>
         </div>
         <div class="panel-body">
@@ -16,26 +16,21 @@
                 <div class="col-md-12">
                     <div class="card">
                         {{-- <div class="card-header">
-                            <h2>{{$serviceData->title}}</h2>
+                            <h2>{{$productData->title}}</h2>
                         </div> --}}
                         <div class="card-body">
-                            {{-- {!! html_entity_decode($employeeDtlData->BRANCH_NAME) !!} --}}
-                            <h5 class="card-title"><b>ID:</b> {{!empty($serviceData->id) ? $serviceData->id:''}}</h5>
+                            <h5 class="card-title"><b>ID:</b> {{!empty($productData->id) ? $productData->id:''}}</h5>
                             {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
                         </div>
-                        {{-- <div class="card-body">
-                            <h5 class="card-title"><b>Title:</b> {{!empty($serviceData->title) ? $serviceData->title: ''}}</h5>
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Title:</b> {{!empty($productData->title) ? $productData->title: ''}}</h5>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title"><b>Description:</b> {{!empty($serviceData->description) ? $serviceData->description : ''}}</h5>
+                            <h5 class="card-title"><b>Description:</b> {!! html_entity_decode($productData->description) !!}</h5>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title"><b>Small Description:</b> {{!empty($serviceData->small_description) ? $serviceData->small_description : ''}}</h5>
+                            <h5 class="card-title"><b>Small Description:</b> {!! html_entity_decode($productData->small_description) !!}</h5>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title"><b>Small Description:</b> {{!empty($serviceData->small_description) ? $serviceData->small_description : ''}}</h5>
-                        </div> --}}
-
                     </div>
                 </div>
             </div>

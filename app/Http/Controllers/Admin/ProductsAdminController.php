@@ -162,4 +162,9 @@ class ProductsAdminController extends Controller
             return redirect('admin/products')->withSuccess('Products added successfully.');
         }
     }
+
+    public function show($id, Request $request){
+        $productData = Products::where('id', $id)->first();
+        return view('admin.products.details', compact('productData'));
+    }
 }
