@@ -90,4 +90,17 @@ class ContactAdminController extends Controller
             "data" => $details['data'],
         ]);
     }
+
+
+    /**
+     * @param $id
+     * @param ResourcePerson $appointment
+     * @return mixed
+     */
+    public function destroy($id, Contact $appointment)
+    {
+        $appointment->destroy($id);
+
+        return redirect()->back()->withSuccess('Appointment deleted successfully!!');
+    }
 }

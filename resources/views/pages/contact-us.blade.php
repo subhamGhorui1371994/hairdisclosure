@@ -7,7 +7,7 @@
     <section class="contact-page-section">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="contact-column col-lg-4 col-md-12 col-sm-12">
+                {{-- <div class="contact-column col-lg-4 col-md-12 col-sm-12">
                     <div class="inner-box">
                         <div class="sec-title">
                             <h2>Contact Info</h2>
@@ -38,19 +38,19 @@
                             </li>
                         </ul>
 
-                        {{-- <ul class="social-icon-four">
+                        <ul class="social-icon-four">
                             <li class="title">Follow Us :</li>
                             <li><a href="{{ url('#') }}"><i class="la la-facebook"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-twitter"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-google-plus"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-dribbble"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-pinterest"></i></a></li>
-                        </ul> --}}
+                        </ul>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Form Column -->
-                <div class="form-column col-lg-8 col-md-12 col-sm-12">
+                <div class="form-column col-lg-8 col-md-12 col-sm-12 mx-auto">
                     <div class="contact-form-two">
                         <div class="sec-title">
                             <h2>Get in Touch</h2>
