@@ -7,7 +7,7 @@
     <section class="contact-page-section">
         <div class="auto-container">
             <div class="row clearfix">
-                {{-- <div class="contact-column col-lg-4 col-md-12 col-sm-12">
+                <div class="contact-column col-lg-4 col-md-12 col-sm-12">
                     <div class="inner-box">
                         <div class="sec-title">
                             <h2>Contact Info</h2>
@@ -15,21 +15,21 @@
                         <ul class="contact-info">
                             <li>
                                 <span class="icon la la-home"></span>
-                                <p><strong>32, Breaking Street,</strong></p>
-                                <p>2nd cros, Newyork ,USA 10002</p>
+                                <p><strong>ADDRESS</strong></p>
+                                <p>{{ env('OFFICE_SHORT_ADDRESS', '69, Kankurgachhi 2nd Lane, Kolkata-700054.') }}</p>
                             </li>
 
                             <li>
                                 <span class="icon la la-phone"></span>
                                 <p><strong>Call Us</strong></p>
-                                <p>+321 4567 89 012 & 79 023</p>
+                                <p>{{ env('OFFICE_PHONE', '8777036806') }}</p>
                             </li>
 
-                            <li>
+                            {{-- <li>
                                 <span class="icon la la-envelope"></span>
                                 <p><strong>Mail Us</strong></p>
                                 <p><a href="{{ url('#') }}">Support@Repairplus.com</a></p>
-                            </li>
+                            </li> --}}
 
                             <li>
                                 <span class="icon la la-clock-o"></span>
@@ -38,16 +38,16 @@
                             </li>
                         </ul>
 
-                        <ul class="social-icon-four">
+                        {{-- <ul class="social-icon-four">
                             <li class="title">Follow Us :</li>
                             <li><a href="{{ url('#') }}"><i class="la la-facebook"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-twitter"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-google-plus"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-dribbble"></i></a></li>
                             <li><a href="{{ url('#') }}"><i class="la la-pinterest"></i></a></li>
-                        </ul>
+                        </ul> --}}
                     </div>
-                </div> --}}
+                </div>
 
                 <!-- Form Column -->
                 <div class="form-column col-lg-8 col-md-12 col-sm-12 mx-auto">
