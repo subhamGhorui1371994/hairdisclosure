@@ -131,7 +131,7 @@
     <!--Footer Bottom-->
     <div class="footer-bottom" style="border-top: 2px solid black">
         <div class="auto-container">
-            <div class="inner-container clearfix">
+            <div class="inner-container clearfix text-center">
                 {{-- <div class="footer-nav">
                     <ul class="clearfix">
                         <li><a href="{{url('/')}}">Home</a></li>
@@ -143,8 +143,14 @@
                     </ul>
                 </div> --}}
 
-                <div class="copyright-text">
-                    <p class="">Copyright © <a href="{{url('/')}}">Adjust for</a> 2018. All rights reserved</p>
+                {{-- <div class="copyright-text text-center mx-auto">
+                    <p class="text-center mx-auto">Copyright © <a href="{{url('/')}}">Adjust for</a> 2018. All rights reserved</p>
+                </div> --}}
+
+                <div class="counter-column  col-md-6 col-sm-12 mx-auto">
+                    <div class="count-box">
+                        <p class="text-white py-3">Copyright © <a href="{{url('/')}}">Adjust for</a> 2018. All rights reserved</p>
+                    </div>
                 </div>
             </div>
         </div>

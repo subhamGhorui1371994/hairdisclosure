@@ -33,7 +33,7 @@
             width: 60px;
             height: 60px;
             bottom: 20px;
-            right: 20px;
+            left: 20px;
             background-color: #25d366;
             color: #FFF;
             border-radius: 50px;
