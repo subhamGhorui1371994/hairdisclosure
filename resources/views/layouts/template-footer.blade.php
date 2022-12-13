@@ -13,13 +13,15 @@
                             <div class="footer-widget about-widget">
                                 <div class="footer-logo">
                                     <figure>
-                                        <a href="{{url('/')}}"><img src="{{url('assets/images/my-images/logos/logo.png')}}" alt=""></a>
+                                        <a href="{{ url('/') }}"><img
+                                                src="{{ url('assets/images/my-images/logos/logo.png') }}"
+                                                alt=""></a>
                                     </figure>
                                 </div>
 
                                 <div class="widget-content">
                                     <div class="text">
-                                       {{--  --}}
+                                        {{--  --}}
                                     </div>
                                     {{-- <ul class="social-icon-two">
                                         <li>Follow Us:</li>
@@ -47,7 +49,9 @@
                                         <li><a href="service">MP3 & MP4 Player</a></li> --}}
                                         @if ($products)
                                             @foreach ($products as $id => $product)
-                                                <li><a href="{{ url('products-detail/' . $id) }}">{{ $product }}</a></li>
+                                                <li><a
+                                                        href="{{ url('products-detail/' . $id) }}">{{ $product }}</a>
+                                                </li>
                                             @endforeach
                                         @endif
                                     </ul>
@@ -96,7 +100,8 @@
                                 <div class="widget-content">
                                     <ul class="contact-list">
                                         <li><span class="la la-map-marker"></span>
-                                            {{ env('OFFICE_ADDRESS', '69, Kankurgachhi 2nd Lane, Kolkata-700054, Near Great Eastren.') }}</li>
+                                            {{ env('OFFICE_ADDRESS', '69, Kankurgachhi 2nd Lane, Kolkata-700054, Near Great Eastren.') }}
+                                        </li>
                                         {{-- <li><span class="la la-envelope"></span><a
                                                 href="{{url('#')}}">business@support.com</a></li> --}}
                                         <li>
@@ -149,7 +154,8 @@
 
                 <div class="counter-column  col-md-6 col-sm-12 mx-auto">
                     <div class="count-box">
-                        <p class="text-white py-3">Copyright © <a href="{{url('/')}}">Adjust for</a> 2018. All rights reserved</p>
+                        <p class="text-white py-3">Copyright © <a href="{{ url('/') }}">Adjust for</a>
+                            {{ date('Y') }} All rights reserved</p>
                     </div>
                 </div>
             </div>
