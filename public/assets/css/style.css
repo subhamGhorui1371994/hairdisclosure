@@ -330,7 +330,7 @@ img {
 
 .scroll-to-top {
     position: fixed;
-    bottom: 90px;
+    bottom: 20px;
     right: 20px;
     width: 60px;
     height: 60px;
