@@ -14,7 +14,13 @@ class HomeController extends Controller
     }
     public function index()
     {
+        $time_slots = [
+            '10:00 AM - 12:00 PM',
+            '12:00 PM - 02:00 PM',
+            '02:00 PM - 06:00 PM',
+            '06:00 PM - 08:00 PM'
+        ];
         $allProducts = Products::all()->toArray();
-        return view('pages.home',compact('allProducts'));
+        return view('pages.home',compact('allProducts','time_slots'));
     }
 }

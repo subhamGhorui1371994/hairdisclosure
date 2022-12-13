@@ -210,22 +210,21 @@
                     </div>
 
                     <!-- Project item -->
-                    <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="project-item all mix female expencive classic col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/3.jpg"
+                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/gimg7.jpg"
                                     alt=""></figure>
                             <div class="overlay-box">
                                 <div class="content">
-                                    <h3><a href="project-detail">Male Type</a></h3>
-                                    <div class="category">Catagory : Expensive</div>
+                                    <h3><a href="project-detail">Female Type</a></h3>
+                                    <div class="category">Catagory :Both(Expensive Classic)</div>
                                     <a href="project-detail" class="link"><span class="icon la la-link"></span></a>
-                                    <a href="assets/images/gallery/gimg3.jpg" class="link" data-fancybox="gallery"
+                                    <a href="assets/images/gallery/gimg7.jpg" class="link" data-fancybox="gallery"
                                         data-caption=""><span class="icon la la-plus"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <!-- Project item -->
                     <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="image-box">
@@ -440,9 +439,18 @@
                                             value="{{ old('date') }}">
                                     </div>
 
-                                    <div class="form-group col-lg-6 col-md-12 col-sm-12">
+                                    {{-- <div class="form-group col-lg-6 col-md-12 col-sm-12">
                                         <input type="time" name="time" placeholder="Time"
                                             value="{{ old('time') }}">
+                                    </div> --}}
+
+                                    <div class="form-group col-lg-6 col-md-12 col-sm-12">
+                                        <select name="time" id="time">
+                                            <option value="">Select Time Slot</option>
+                                            @foreach ($time_slots as $time_slot)
+                                                <option value="{{ $time_slot }}">{{ $time_slot }}</option>
+                                            @endforeach
+                                        </select>
                                     </div>
 
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
