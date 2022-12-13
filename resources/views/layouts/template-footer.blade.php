@@ -13,7 +13,7 @@
                             <div class="footer-widget about-widget">
                                 <div class="footer-logo">
                                     <figure>
-                                        <a href="{{url('/')}}"><img src="{{url('assets/images/my-images/logos/footer-logo.png')}}" alt=""></a>
+                                        <a href="{{url('/')}}"><img src="{{url('assets/images/my-images/logos/logo.png')}}" alt=""></a>
                                     </figure>
                                 </div>
 

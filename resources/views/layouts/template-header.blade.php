@@ -8,7 +8,7 @@
 
                         <div class="logo-outer">
                             <div class="logo"><a href="{{ url('/') }}"><img
-                                        src="{{ url('assets/images/my-images/logos/header-logo.png') }}" alt=""
+                                        src="{{ url('assets/images/my-images/logos/logo.png') }}" alt=""
                                         title=""></a>
                             </div>
                         </div>
@@ -173,13 +173,13 @@
                     <!--Logo-->
                     <div class="logo pull-left">
                         <a href="{{ url('/') }}" title=""><img
-                                src="{{ url('assets/images/my-images/logos/header-logo.png') }}" alt=""
+                                src="{{ url('assets/images/my-images/logos/logo.png') }}" alt=""
                                 title=""></a>
                     </div>
                     <!--Right Col-->
                     <div class="pull-right">
                         <!-- Main Menu -->
-                        <nav class="main-menu">
+                        <nav class="main-menu" style="padding: 24px;">
                             <div class="navbar-collapse show collapse clearfix">
                                 <ul class="navigation clearfix">
                                     <li><a href="{{ url('/') }}">Home</a></li>
