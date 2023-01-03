@@ -23,14 +23,18 @@
                                     <div class="text">
                                         {{--  --}}
                                     </div>
-                                    {{-- <ul class="social-icon-two">
+                                    <ul class="social-icon-two">
                                         <li>Follow Us:</li>
-                                        <li><a href="{{url('#')}}"><i class="la la-facebook"></i></a></li>
-                                        <li><a href="{{url('#')}}"><i class="la la-twitter"></i></a></li>
-                                        <li><a href="{{url('#')}}"><i class="la la-linkedin"></i></a></li>
-                                        <li><a href="{{url('#')}}"><i class="la la-google-plus"></i></a></li>
-                                        <li><a href="{{url('#')}}"><i class="la la-pinterest-p"></i></a></li>
-                                    </ul> --}}
+                                        <li><a target="_blank" href="{{ url('https://www.facebook.com/hairdisclosure') }}"><i
+                                            class="la la-facebook-official" target></i></a>
+                                </li>
+                                <li><a target="_blank" href="{{ url('https://www.instagram.com/hairdisclosure/') }}"><i
+                                            class="la la-instagram"></i></a></li>
+                                        {{-- <li><a href="{{url('#')}}"><i class="la la-twitter"></i></a></li> --}}
+                                        {{-- <li><a href="{{url('#')}}"><i class="la la-linkedin"></i></a></li> --}}
+                                        {{-- <li><a href="{{url('#')}}"><i class="la la-google-plus"></i></a></li> --}}
+                                        {{-- <li><a href="{{url('#')}}"><i class="la la-pinterest-p"></i></a></li> --}}
+                                    </ul>
                                 </div>
                             </div>
                         </div>

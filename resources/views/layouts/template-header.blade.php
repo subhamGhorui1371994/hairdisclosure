@@ -20,7 +20,8 @@
                                 <div class="icon-box"><span class="la la-home"></span></div>
                                 <ul>
                                     <li><span>Visit Us</span></li>
-                                    <li>{{ env('OFFICE_SHORT_ADDRESS', '69, Kankurgachhi 2nd Lane, Kolkata-700054.') }}</li>
+                                    <li>{{ env('OFFICE_SHORT_ADDRESS', '69, Kankurgachhi 2nd Lane, Kolkata-700054.') }}
+                                    </li>
                                 </ul>
                             </div>
 
@@ -129,13 +130,17 @@
 
                             <!-- Outer Box -->
                             <div class="outer-box">
-                                {{-- <ul class="social-icon-three clearfix">
-                                    <li><a href="{{ url('#') }}"><i class="la la-facebook-official"></i></a></li>
-                                    <li><a href="{{ url('#') }}"><i class="la la-twitter"></i></a></li>
-                                    <li><a href="{{ url('#') }}"><i class="la la-google-plus"></i></a></li>
-                                    <li><a href="{{ url('#') }}"><i class="la la-dribbble"></i></a></li>
-                                    <li><a href="{{ url('#') }}"><i class="la la-pinterest"></i></a></li>
-                                </ul> --}}
+                                <ul class="social-icon-three clearfix">
+                                    <li><a target="_blank" href="{{ url('https://www.facebook.com/hairdisclosure') }}"><i
+                                                class="la la-facebook-official" target></i></a>
+                                    </li>
+                                    <li><a target="_blank" href="{{ url('https://www.instagram.com/hairdisclosure/') }}"><i
+                                                class="la la-instagram"></i></a></li>
+                                    {{-- <li><a href="{{ url('#') }}"><i class="la la-twitter"></i></a></li> --}}
+                                    {{-- <li><a href="{{ url('#') }}"><i class="la la-google-plus"></i></a></li> --}}
+                                    {{-- <li><a href="{{ url('#') }}"><i class="la la-dribbble"></i></a></li> --}}
+                                    {{-- <li><a href="{{ url('#') }}"><i class="la la-pinterest"></i></a></li> --}}
+                                </ul>
 
                                 <!--Search Box-->
                                 {{-- <div class="search-box-outer">
@@ -216,7 +221,7 @@
                                         </ul>
                                     </li> --}}
                                     <li><a href="{{ url('gallery') }}">Gallery</a></li>
-                                        {{-- <li class="dropdown"><a href="{{ url('#') }}">shop</a>
+                                    {{-- <li class="dropdown"><a href="{{ url('#') }}">shop</a>
                                             <ul>
                                                 <li><a href="{{ url('shopping-cart') }}">Shopping Cart</a></li>
                                                 <li><a href="{{ url('checkout') }}">Checkout</a></li>
