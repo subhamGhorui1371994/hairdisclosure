@@ -54,21 +54,21 @@
                     </div>
 
                     <!-- Project item -->
-                    <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/3.jpg"
-                                    alt=""></figure>
-                            <div class="overlay-box">
-                                <div class="content">
-                                    <h3><a href="project-detail">Male Type</a></h3>
-                                    <div class="category">Catagory : Expensive</div>
-                                    <a href="project-detail" class="link"><span class="icon la la-link"></span></a>
-                                    <a href="assets/images/gallery/gimg3.jpg" class="link" data-fancybox="gallery"
-                                        data-caption=""><span class="icon la la-plus"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">--}}
+{{--                        <div class="image-box">--}}
+{{--                            <figure class="image"><img style="height: 220px;" src="assets/images/gallery/3.jpg"--}}
+{{--                                    alt=""></figure>--}}
+{{--                            <div class="overlay-box">--}}
+{{--                                <div class="content">--}}
+{{--                                    <h3><a href="project-detail">Male Type</a></h3>--}}
+{{--                                    <div class="category">Catagory : Expensive</div>--}}
+{{--                                    <a href="project-detail" class="link"><span class="icon la la-link"></span></a>--}}
+{{--                                    <a href="assets/images/gallery/gimg3.jpg" class="link" data-fancybox="gallery"--}}
+{{--                                        data-caption=""><span class="icon la la-plus"></span></a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
                     <!-- Project item -->
                     <div class="project-item all mix male expensive col-xl-3 col-lg-4 col-md-6 col-sm-12">
